@@ -1,6 +1,6 @@
 package com.levandr.studenttechnicaltask.service;
 
-import com.levandr.studenttechnicaltask.Entity.Student;
+import com.levandr.studenttechnicaltask.entity.Student;
 import org.springframework.stereotype.Repository;
 
 import java.util.Collection;

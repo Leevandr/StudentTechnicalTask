@@ -1,4 +1,4 @@
-package com.levandr.studenttechnicaltask.Entity;
+package com.levandr.studenttechnicaltask.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

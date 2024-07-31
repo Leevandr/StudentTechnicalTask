@@ -1,4 +1,4 @@
-package com.levandr.studenttechnicaltask.Event;
+package com.levandr.studenttechnicaltask.event;
 
 
 import org.springframework.context.event.EventListener;

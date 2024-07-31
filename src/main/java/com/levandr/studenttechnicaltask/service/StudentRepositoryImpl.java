@@ -1,7 +1,7 @@
 package com.levandr.studenttechnicaltask.service;
 
-import com.levandr.studenttechnicaltask.Entity.Student;
-import com.levandr.studenttechnicaltask.Event.StudentEvent;
+import com.levandr.studenttechnicaltask.entity.Student;
+import com.levandr.studenttechnicaltask.event.StudentEvent;
 import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.stereotype.Service;
 

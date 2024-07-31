@@ -1,4 +1,4 @@
-package com.levandr.studenttechnicaltask.Event;
+package com.levandr.studenttechnicaltask.event;
 
 import lombok.Getter;
 import org.springframework.context.ApplicationEvent;
