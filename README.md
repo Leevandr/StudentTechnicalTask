@@ -8,9 +8,9 @@
 6) Удалить студента - `remove 1` 1 - id.
 7) Получить всех = `list`.
 8) Удалить всех = `remove-all`.
-9) 
-   1) Student Commands
+Student Commands
       add: Add a new student
       remove-all: removeAll students
       list: List all students
       remove: Remove a student by id
+      
