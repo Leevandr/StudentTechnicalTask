@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class StudentEventListener {
     @EventListener
-    public void handleStudentEvent(StudentEvent event){
+    public void handleStudentEvent(StudentEvent event) {
         System.out.println("Received students event - " + event.getMessage());
     }
 }

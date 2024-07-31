@@ -11,6 +11,4 @@ public class StudentEvent extends ApplicationEvent {
         super(source);
         this.message = message;
     }
-
-
 }

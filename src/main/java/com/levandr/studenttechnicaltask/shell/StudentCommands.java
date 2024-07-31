@@ -1,7 +1,6 @@
 package com.levandr.studenttechnicaltask.shell;
 
 import com.levandr.studenttechnicaltask.Entity.Student;
-import com.levandr.studenttechnicaltask.service.StudentRepository;
 import com.levandr.studenttechnicaltask.service.StudentRepositoryImpl;
 import org.springframework.shell.standard.ShellComponent;
 import org.springframework.shell.standard.ShellMethod;

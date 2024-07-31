@@ -8,7 +8,7 @@ import java.util.Collection;
 @Repository
 public interface StudentRepository {
 
-    Student addStudent(String firstName,String lastName, int age);
+    Student addStudent(String firstName, String lastName, int age);
 
     Student removeStudent(Long id);
 
