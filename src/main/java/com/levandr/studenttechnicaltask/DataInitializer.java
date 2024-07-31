@@ -1,6 +1,6 @@
 package com.levandr.studenttechnicaltask;
 
-import com.levandr.studenttechnicaltask.Config.StudentConfig;
+import com.levandr.studenttechnicaltask.сonfig.StudentConfig;
 import com.levandr.studenttechnicaltask.service.StudentRepositoryImpl;
 import jakarta.annotation.PostConstruct;
 import org.springframework.stereotype.Component;
