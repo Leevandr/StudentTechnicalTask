@@ -1,11 +1,11 @@
 package com.levandr.studenttechnicaltask.service;
 
 import com.levandr.studenttechnicaltask.entity.Student;
-import org.springframework.stereotype.Repository;
+import org.springframework.stereotype.Service;
 
 import java.util.Collection;
 
-@Repository
+@Service
 public interface StudentService {
 
     Student addStudent(String firstName, String lastName, int age);
