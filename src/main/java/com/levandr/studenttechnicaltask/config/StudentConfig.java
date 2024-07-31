@@ -1,4 +1,4 @@
-package com.levandr.studenttechnicaltask.сonfig;
+package com.levandr.studenttechnicaltask.config;
 
 import lombok.Getter;
 import lombok.Setter;
