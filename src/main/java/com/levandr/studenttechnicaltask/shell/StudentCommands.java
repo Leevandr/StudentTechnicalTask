@@ -1,7 +1,7 @@
 package com.levandr.studenttechnicaltask.shell;
 
 import com.levandr.studenttechnicaltask.entity.Student;
-import com.levandr.studenttechnicaltask.service.StudentRepositoryImpl;
+import com.levandr.studenttechnicaltask.service.StudentServiceImpl;
 import org.springframework.shell.standard.ShellComponent;
 import org.springframework.shell.standard.ShellMethod;
 import org.springframework.shell.standard.ShellOption;
@@ -9,9 +9,9 @@ import org.springframework.shell.standard.ShellOption;
 @ShellComponent
 public class StudentCommands {
 
-    private final StudentRepositoryImpl studentService;
+    private final StudentServiceImpl studentService;
 
-    public StudentCommands(StudentRepositoryImpl studentService) {
+    public StudentCommands(StudentServiceImpl studentService) {
         this.studentService = studentService;
     }
 

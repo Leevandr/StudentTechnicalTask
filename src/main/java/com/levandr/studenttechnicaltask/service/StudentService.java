@@ -6,7 +6,7 @@ import org.springframework.stereotype.Repository;
 import java.util.Collection;
 
 @Repository
-public interface StudentRepository {
+public interface StudentService {
 
     Student addStudent(String firstName, String lastName, int age);
 

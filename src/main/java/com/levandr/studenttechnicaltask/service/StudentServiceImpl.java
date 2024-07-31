@@ -11,14 +11,14 @@ import java.util.List;
 import java.util.Map;
 
 @Service
-public class StudentRepositoryImpl implements StudentRepository {
+public class StudentServiceImpl implements StudentService {
 
     private final ApplicationEventPublisher eventPublisher;
 
     private final Map<Long, Student> students = new HashMap<>();
     private Long currentId = 1L;
 
-    public StudentRepositoryImpl(ApplicationEventPublisher eventPublisher) {
+    public StudentServiceImpl(ApplicationEventPublisher eventPublisher) {
         this.eventPublisher = eventPublisher;
     }
 

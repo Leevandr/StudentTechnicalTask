@@ -1,7 +1,7 @@
 package com.levandr.studenttechnicaltask;
 
 import com.levandr.studenttechnicaltask.config.StudentConfig;
-import com.levandr.studenttechnicaltask.service.StudentRepositoryImpl;
+import com.levandr.studenttechnicaltask.service.StudentServiceImpl;
 import jakarta.annotation.PostConstruct;
 import org.springframework.stereotype.Component;
 
@@ -9,9 +9,9 @@ import org.springframework.stereotype.Component;
 public class DataInitializer {
 
     private final StudentConfig studentConfig;
-    private final StudentRepositoryImpl studentService;
+    private final StudentServiceImpl studentService;
 
-    public DataInitializer(StudentConfig studentConfig, StudentRepositoryImpl studentService) {
+    public DataInitializer(StudentConfig studentConfig, StudentServiceImpl studentService) {
         this.studentConfig = studentConfig;
         this.studentService = studentService;
     }
