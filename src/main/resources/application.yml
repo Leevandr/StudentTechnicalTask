@@ -1,0 +1,19 @@
+student:
+  createOnStart: true
+
+spring:
+  docker:
+    compose:
+      enabled: false
+
+  shell:
+    interactive:
+      enabled: true
+
+  main:
+    web-application-type: none
+
+logging:
+  level:
+    org:
+      jline: ERROR
