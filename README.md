@@ -1,7 +1,8 @@
 1) Запуск из ide
 Производить запуск из Ide 
-2) Запуск с docker-compose
-   `docker-compose up --build`
+2) Запуск с docker
+2.1) `docker build -t student-technical-task .`
+2.2) `docker run -i -t --tty student-technical-task`
 3) По умолчанию если в application.yml `createOnStart: true` инициализируется 4 студента.
 4) Можно добавлять студентов удалять/получить всех студентов/удалить всех студентов.
 5) Добавить студента - `add Alex Mas 20` Alex - name, Mas - last_name, 20 - age.

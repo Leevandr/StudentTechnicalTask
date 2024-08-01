@@ -10,8 +10,13 @@ services:
     restart: "no"
     ports:
       - "8080:8080"
+    stdin_open: true
+    tty: true
+    environment:
+      COLUMNS: 80
+      LINES: 24
     healthcheck:
-      test: wget --no-verbose --tries=1 --spider http://localhost:8080/ || exit 1
+      test: wget --no-verbose --tries=1 --spider http://localhost:8080/
       interval: 30s
       timeout: 5s
       start_period: 30s
